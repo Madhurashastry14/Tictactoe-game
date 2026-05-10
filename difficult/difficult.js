@@ -18,10 +18,7 @@ document.getElementById("squares").addEventListener("click",(event) => {
         }
     } 
 })
-// so minimax algorithm has two player that is maximizing player(ai) who searches for the maximum score he can get and minimizing player 
-// who searches for a way to minimize the maximizing player.
-//maximizing player returns the best move it can take and minimizing player returns the best way user can move
-// when minimizing player makes the best move maximizing player checks the best move it can make and returns it.
+
 function checkwinner() {
     const wincombo=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
     let computernow =playernow=="X" ? "O" : "X";
