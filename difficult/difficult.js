@@ -42,6 +42,7 @@ function checkwinner() {
 if(draws && !winnercheck) {
     return "draw";
 }
+
 return null;
 }
 function minimax(score) {
@@ -81,6 +82,7 @@ function minimax(score) {
         return bestscore;
     }
 }
+
 function computermove() {
     let computernow =playernow=="X" ? "O" : "X";
     let position;
