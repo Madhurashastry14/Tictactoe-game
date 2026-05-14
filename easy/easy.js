@@ -66,3 +66,7 @@ document.getElementById("reset").addEventListener("click", (event) => {
     playernow = tictaetoe[Math.floor(Math.random() * tictaetoe.length)];
     document.getElementById("result").innerHTML="You are player " + playernow ;
 });
+
+document.getElementById("back").addEventListener("click", (event) => {
+    window.location.href="../index/index.html";
+});

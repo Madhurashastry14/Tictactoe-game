@@ -52,3 +52,23 @@ body {
     left:665px;
     color:rgb(218, 225, 230);
 }
+
+#back {
+    padding:15px 50px;
+    border:none;
+    border-radius: 30px;
+    left:350px;
+    top:650px;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    background:linear-gradient(to right, #52159c,#11adbe);
+    transition: transform 0.3s ease;
+    position: absolute;
+}
+#back:hover{
+    transform: scale(1.05);
+}
+#back:active{
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgb(234, 196, 127);
+}

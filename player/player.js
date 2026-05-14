@@ -60,3 +60,7 @@ document.getElementById("reset").addEventListener("click", (event) => {
     drawcheck=false;
     document.getElementById("result").innerHTML="";
 });
+
+document.getElementById("back").addEventListener("click", (event) => {
+    window.location.href="../index/index.html";
+});
